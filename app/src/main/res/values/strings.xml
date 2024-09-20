@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NUMAD24Fa_AarzooBansal</string>
+    <string name="button_name">About Me!!</string>
+    <string name="email">bansal.aar@northeastern.edu</string>
+    <string name="my_name">Aarzoo Bansal</string>
+    <string name="taost_message"> Aarzoo Bansal\nbansal.aar@northeastern.edu</string>
 </resources>

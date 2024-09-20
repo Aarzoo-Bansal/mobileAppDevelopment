@@ -1,9 +1,11 @@
 package com.example.numad24fa_aarzoobansal;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickBtn(View view){
         TextView txtHello = findViewById(R.id.textMsg);
-        txtHello.setText("Aarzoo Bansal");
+        txtHello.setText(R.string.my_name);
         ImageView toastImg = findViewById(R.id.imageView3);
         toastImg.setVisibility(View.VISIBLE);
         TextView txtEmail = findViewById(R.id.email);
         txtEmail.setVisibility(View.VISIBLE);
+        Toast.makeText(getApplicationContext(), R.string.taost_message, Toast.LENGTH_LONG).show();
     }
 }
